@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>俄罗斯双城 · 每日行程 · 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="brand">RUSSIA <span>·</span> 2026</a>
+  <ul class="nav-links">
+    <li><a href="index.html">概览</a></li>
+    <li><a href="itinerary.html" class="active-link">行程</a></li>
+    <li><a href="logistics.html">事项</a></li>
+  </ul>
+  <button class="burger" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+</nav>
+
+<section class="hero" style="height: 55vh; min-height: 420px;">
+  <div style="position:absolute; inset:0; background-image: url('img/hero-2.jpg'); background-size: cover; background-position: center; z-index: 0;"></div>
+  <div style="position:absolute; inset:0; background: linear-gradient(180deg, rgba(11,13,18,.4) 0%, rgba(11,13,18,.75) 60%, rgba(11,13,18,.98) 100%); z-index: 1;"></div>
+  <div class="hero-content" style="position:relative; z-index: 2;">
+    <span class="kicker">October 04 — 12 · 2026</span>
+    <h1>每日行程<br><em>九天 · 九章</em></h1>
+    <p class="subtitle">南航经北京中转去程 ¥1,950，川航经成都回程 ¥2,400。所有餐厅、演出、火车票均附预订链接，点击即可跳转。</p>
+  </div>
+</section>
+
+<nav class="tab-nav" id="tabNav" style="top: 60px;">
+  <div class="tab-nav-inner">
+    <button class="tab-btn active" data-day="1"><span class="n">01</span> 启程 · 深夜出发</button>
+    <button class="tab-btn" data-day="2"><span class="n">02</span> 抵达 · 红场</button>
+    <button class="tab-btn" data-day="3"><span class="n">03</span> 艺术 · 大剧院芭蕾</button>
+    <button class="tab-btn" data-day="4"><span class="n">04</span> 金环 · 谢尔盖耶夫</button>
+    <button class="tab-btn" data-day="5"><span class="n">05</span> 游隼 · 圣彼得堡</button>
+    <button class="tab-btn" data-day="6"><span class="n">06</span> 冬宫 · 滴血教堂</button>
+    <button class="tab-btn" data-day="7"><span class="n">07</span> 夏宫 · 芬兰湾</button>
+    <button class="tab-btn" data-day="8"><span class="n">08</span> 要塞 · 告别宴</button>
+    <button class="tab-btn" data-day="9"><span class="n">09</span> 回国</button>
+  </div>
+</nav>
+
+<!-- ========== DAY 1 ========== -->
+<section class="block tab-panel active" data-day="1">
+  <div class="day-banner b1"><span class="banner-caption">Shanghai Pudong · Departure Night</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 01 · Sunday · 10/04</span>
+    <h2>启程<br><em>深夜出发</em></h2>
+    <p class="desc">今晚从上海浦东出发，搭乘南航经北京中转飞莫斯科。总价 ¥1,950，比直飞省 ¥2,500+。机上睡一觉，明早抵达。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">23:50</span><span class="l">起飞</span></div>
+      <div class="day-stat"><span class="v">13 h</span><span class="l">含中转</span></div>
+      <div class="day-stat"><span class="v">12:50+1</span><span class="l">抵达 MOW</span></div>
+      <div class="day-stat"><span class="v">¥1,950</span><span class="l">机票</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">21:30 · 北京</div><h3>抵达浦东机场 · T2</h3><p>建议 21:30 到达机场办理值机。南航国际航班在 T2 出发。</p></div>
+    <div class="event"><div class="time">23:50</div><h3>南航 CZ · 上海浦东 → 北京大兴</h3><p>第一程约 2.5 小时。北京大兴 PKX 中转，预留 2 小时转机时间。</p>
+      <div class="detail-card"><div class="k">航班</div><div class="v"><strong>南航 CZ</strong> · PVG → PKX → SVO</div><div class="k">价格</div><div class="v"><strong>¥1,950</strong> · 经济舱含税</div><div class="k">预订</div><div class="v">Trip.com 或 csair.com</div></div>
+      <a href="https://www.trip.com/flights/airport-pvg-svo/" target="_blank" class="booking">Trip.com 订票 ↗</a>
+      <a href="https://www.csair.com" target="_blank" class="booking">南航官网 ↗</a>
+    </div>
+    <div class="event"><div class="time">次日</div><h3>机上休息 · 倒时差</h3><p>北京 → 莫斯科约 7 小时。建议选靠窗位，备好颈枕耳塞。抵达详情见 Day 2。</p></div>
+  </div>
+</section>
+
+<!-- ========== DAY 2 ========== -->
+<section class="block tab-panel" data-day="2">
+  <div class="day-banner b2"><span class="banner-caption">Red Square · Saint Basil's at golden hour</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 02 · Monday · 10/05 · Moscow</span>
+    <h2>抵达莫斯科<br><em>红场 · 克里姆林宫</em></h2>
+    <p class="desc">中午降落谢列梅捷沃，下午直入莫斯科心脏——克里姆林宫的金顶、圣瓦西里的洋葱穹、扎里亚季耶的日落。第一晚在普希金咖啡馆用经典俄餐开场。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">12:50</span><span class="l">抵达 MOW</span></div>
+      <div class="day-stat"><span class="v">3</span><span class="l">核心景点</span></div>
+      <div class="day-stat"><span class="v">17:45</span><span class="l">日落</span></div>
+      <div class="day-stat"><span class="v">−5 h</span><span class="l">时差</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">12:50 · 莫斯科</div><h3>抵达谢列梅捷沃 SVO</h3><p>边检 30–45 分钟，填写入境卡（<b style="color:var(--red)">务必保留至出境</b>）。落地换 10,000₽ + 买 MTS SIM 卡。</p></div>
+    <div class="event"><div class="time">14:00</div><h3>Aeroexpress 快轨入城</h3><p>D 航站楼 → 白俄罗斯火车站，35 分钟 / 500₽。</p><div class="tags"><span class="tag price">¥40</span><span class="tag">35 min</span></div></div>
+    <div class="event"><div class="time">15:00</div><h3>入住 Hotel National</h3><p>1903 年开业，列宁曾下榻。红场步行 1 分钟。放下行李，轻装出发。</p><div class="tags"><span class="tag hotel">酒店 · 4 晚</span></div></div>
+    <div class="event"><div class="time">15:30</div><h3>克里姆林宫 · 军械库 + 教堂广场</h3><p>沙皇皇冠、复活节金蛋、罗曼诺夫王朝珠宝。伊凡大帝钟楼可登顶。</p>
+      <div class="detail-card"><div class="k">门票</div><div class="v"><strong>套票 1,000₽</strong>（¥80）</div><div class="k">预约</div><div class="v">kreml.ru · 选 15:30 场</div></div>
+      <a href="https://www.kreml.ru/en/kremlin/tickets/" target="_blank" class="booking">预订门票 ↗</a>
+      <div class="tags"><span class="tag price">¥80</span><span class="tag">2h</span><span class="tag">需预约</span></div>
+    </div>
+    <div class="event"><div class="time">17:30</div><h3>圣瓦西里大教堂 + GUM 百货</h3><p>九个独立礼拜堂，每座穹顶都不同。GUM 一楼 Столовая №57 是网红苏联食堂，冰淇淋 150₽。</p>
+      <div class="detail-card"><div class="k">圣瓦西里</div><div class="v">门票 500₽（¥40）</div><div class="k">必吃</div><div class="v">GUM 冰淇淋 150₽</div></div>
+      <div class="tags"><span class="tag price">¥40</span><span class="tag">1h</span></div>
+    </div>
+    <div class="event"><div class="time">18:30</div><h3>扎里亚季耶公园 · 莫斯科河日落</h3><p>悬浮观景台 «Парящий мост»，拍克里姆林宫日落的最佳机位。10 月日落 17:45。</p></div>
+    <div class="event"><div class="time">19:30</div><h3>晚餐 · Кафе Пушкинъ (Café Pushkin)</h3><p>19 世纪贵族宅邸，三层楼还原沙皇时代客厅，侍者穿帝国时期制服。</p>
+      <div class="detail-card"><div class="k">必点</div><div class="v">鲟鱼子酱 · 俄式红菜汤 · 基辅鸡卷</div><div class="k">人均</div><div class="v">2,800₽（¥220）</div></div>
+      <a href="https://cafe-pushkin.ru/en/reservations/" target="_blank" class="booking">预订座位 ↗</a>
+      <div class="tags"><span class="tag price">人均 ¥220</span><span class="tag">需预订</span></div>
+    </div>
+    <div class="event"><div class="time">21:30</div><h3>红场夜景 · 回酒店休息</h3><p>夜晚的红场灯火通明，圣瓦西里洋葱穹在灯光下更加梦幻。步行 1 分钟回酒店，养精蓄锐迎接明天。</p></div>
+  </div>
+</section>
+
+<!-- ========== DAY 3 — BALLET DAY ========== -->
+<section class="block tab-panel" data-day="3">
+  <div class="day-banner b3"><span class="banner-caption">Bolshoi Theatre · Swan Lake at 20:00</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 03 · Tuesday · 10/06 · Moscow · Ballet Night</span>
+    <h2>特列季亚科夫 · 麻雀山<br><em>大剧院芭蕾舞之夜</em></h2>
+    <p class="desc">白天看尽俄罗斯艺术巅峰与莫斯科日落，夜晚踏入世界四大芭蕾舞团之首的 Bolshoi——这趟旅程最璀璨的高光。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">🩰</span><span class="l">Bolshoi</span></div>
+      <div class="day-stat"><span class="v">17:45</span><span class="l">日落</span></div>
+      <div class="day-stat"><span class="v">4 km</span><span class="l">步行</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">10:00</div><h3>特列季亚科夫画廊</h3><p>13 万件俄罗斯艺术品。必看：列宾《伊凡雷帝杀子》、列维坦《永恒的安宁》。</p>
+      <div class="detail-card"><div class="k">门票</div><div class="v"><strong>500₽</strong>（¥40）</div><div class="k">预约</div><div class="v">tretyakovgallery.ru · 含语音导览 400₽</div></div>
+      <a href="https://www.tretyakovgallery.ru/en/" target="_blank" class="booking">预订门票 ↗</a>
+      <div class="tags"><span class="tag price">¥40</span><span class="tag">2.5h</span></div>
+    </div>
+    <div class="event"><div class="time">13:00</div><h3>午餐 · Теремок (Teremok)</h3><p>俄式煎饼 Блин 快餐 · 鱼子酱煎饼 + 红菜汤。</p><a href="https://teremok.ru/" target="_blank" class="booking">官网 ↗</a><div class="tags"><span class="tag price">人均 ¥40</span></div></div>
+    <div class="event"><div class="time">14:30</div><h3>基督救世主大教堂 → 阿尔巴特老街</h3><p>世界最高东正教教堂，103 米金顶。步行至阿尔巴特老街（普希金故居在此）。</p></div>
+    <div class="event"><div class="time">17:30</div><h3>麻雀山 · 莫斯科全城日落</h3><p>莫斯科河制高点，同时看到莫斯科大学「七姐妹」与卢日尼基体育场。</p></div>
+    <div class="event"><div class="time">18:30</div><h3>晚餐 · Grand Cafe Dr. Живаго</h3><p>大剧院对面，苏联 60 年代知识分子客厅风。吃完散步 5 分钟直达 Bolshoi，完美衔接。</p>
+      <div class="detail-card"><div class="k">地址</div><div class="v">ul. Petrovka 2 · 大剧院正对面</div><div class="k">必点</div><div class="v">«Лара» 甜点 · 俄式烤鹅 · 伏特加套组</div><div class="k">人均</div><div class="v">2,200₽（¥170）</div></div>
+      <a href="https://drzhivago.ru/booking/" target="_blank" class="booking">预订座位 ↗</a>
+      <div class="tags"><span class="tag price">人均 ¥170</span><span class="tag">18:30 开餐</span></div>
+    </div>
+    <div class="event">
+      <div class="time">20:00</div>
+      <h3>🩰 莫斯科大剧院芭蕾舞 · Bolshoi Ballet</h3>
+      <p>世界四大芭蕾舞团之首，1776 年创立。剧院本身是 1825 年新古典主义建筑杰作，正立面八柱阿波罗战车三角楣，5000 卢布纸币上的地标。</p>
+      <div class="detail-card">
+        <div class="k">剧院</div><div class="v"><strong>Большой театр · 历史主舞台 (Historic Stage)</strong></div>
+        <div class="k">推荐剧目</div><div class="v">《天鹅湖》(Swan Lake) · 柴可夫斯基经典 · 首演 1877 年</div>
+        <div class="k">档期</div><div class="v">10/6 周二 20:00 · 演出约 2h45m（含 2 次中场）</div>
+        <div class="k">座位</div><div class="v"><strong>Amphitheatre 第 3–5 排中央</strong> · 视野与性价比最佳</div>
+        <div class="k">票价</div><div class="v">10,000–15,000₽（¥780–¥1,170）</div>
+        <div class="k">购票</div><div class="v">bolshoi.ru · 开票首日即抢（提前 2-3 个月）· 仅官网真票，第三方黄牛 3 倍溢价</div>
+        <div class="k">Dress Code</div><div class="v">Smart Casual · 男士衬衫+西裤 · 女士连衣裙/套装</div>
+      </div>
+      <a href="https://ticket.bolshoi.ru/shows" target="_blank" class="booking">Bolshoi 官方购票 ↗</a>
+      <div class="tags"><span class="tag price">¥780–1,170</span><span class="tag">2h45m</span><span class="tag">全程高光</span><span class="tag">需提前抢票</span></div>
+    </div>
+    <div class="event"><div class="time">23:00</div><h3>散场 · 步行回酒店</h3><p>大剧院到 Hotel National 仅 8 分钟，十月深夜红场灯火通明，可顺路再看一眼圣瓦西里夜景。</p></div>
+  </div>
+</section>
+
+<!-- ========== DAY 4 ========== -->
+<section class="block tab-panel" data-day="4">
+  <div class="day-banner b4"><span class="banner-caption">Trinity Lavra · bells over birch forests</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 04 · Wednesday · 10/07 · Moscow Suburb</span>
+    <h2>金环之旅<br><em>谢尔盖耶夫镇</em></h2>
+    <p class="desc">俄罗斯东正教的精神圣地——谢尔盖圣三一修道院。15 世纪圣像画大师鲁布廖夫真迹，钟声回荡在白桦林间。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">70 km</span><span class="l">距莫斯科</span></div>
+      <div class="day-stat"><span class="v">1.5 h</span><span class="l">火车</span></div>
+      <div class="day-stat"><span class="v">1340</span><span class="l">修道院始建</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">08:30</div><h3>雅罗斯拉夫尔火车站出发</h3><p>快速列车直达 Сергиев Посад，1.5h / 300₽。</p><a href="https://pass.rzd.ru/" target="_blank" class="booking">RZD 订票 ↗</a><div class="tags"><span class="tag price">¥25 单程</span></div></div>
+    <div class="event"><div class="time">10:30</div><h3>谢尔盖圣三一修道院</h3><p>东正教最神圣修道院，圣母升天大教堂蓝金顶。UNESCO 世界遗产。</p>
+      <div class="detail-card"><div class="k">门票</div><div class="v"><strong>600₽</strong>（¥48）</div><div class="k">礼仪</div><div class="v">女性戴头巾 · 男性脱帽</div></div>
+      <a href="https://lavra.ru/" target="_blank" class="booking">官网 ↗</a>
+      <div class="tags"><span class="tag price">¥48</span><span class="tag">UNESCO</span></div>
+    </div>
+    <div class="event"><div class="time">13:00</div><h3>午餐 · 修道院 «Трапезная»</h3><p>修道院内素食俄餐 + 自酿克瓦斯。</p><div class="tags"><span class="tag price">人均 ¥65</span></div></div>
+    <div class="event"><div class="time">15:00</div><h3>小镇漫步 · 买套娃 · 返回莫斯科</h3><p>谢尔盖耶夫是俄罗斯套娃发源地。</p></div>
+    <div class="event"><div class="time">19:30</div><h3>晚餐 · Честная кухня</h3><p>主厨 Dmitry Shurshakov 创意俄餐，20 座开放式厨房。</p><div class="tags"><span class="tag price">人均 ¥195</span></div></div>
+  </div>
+</section>
+
+<!-- ========== DAY 5 ========== -->
+<section class="block tab-panel" data-day="5">
+  <div class="day-banner b5"><span class="banner-caption">Sapsan 754А · 700 km of birch autumn</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 05 · Thursday · 10/08 · MOW → LED</span>
+    <h2>游隼穿越<br><em>抵达圣彼得堡</em></h2>
+    <p class="desc">上午在莫斯科最后的 VDNKh 看苏联建筑奇迹，下午搭乘游隼号高铁穿越 700 公里白桦林，傍晚抵达北方威尼斯。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">4 h</span><span class="l">Sapsan</span></div>
+      <div class="day-stat"><span class="v">700 km</span><span class="l">穿越</span></div>
+      <div class="day-stat"><span class="v">250 km/h</span><span class="l">最高时速</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">10:30</div><h3>VDNKh 全俄展览中心</h3><p>苏联 240 座展馆，金人喷泉斯大林美学巅峰。推荐宇航博物馆。</p></div>
+    <div class="event"><div class="time">12:30</div><h3>午餐 · VDNKh «Хинкальная»</h3><p>高加索菜 · 每只 Хинкали 大肉包 120₽。</p><div class="tags"><span class="tag price">人均 ¥80</span></div></div>
+    <div class="event">
+      <div class="time">13:30 – 17:25</div>
+      <h3>游隼号 Sapsan 754А · 商务舱</h3>
+      <p>西门子 Velaro · 2×1 布局 · 含餐 WiFi 报刊。沿途白桦林秋景如画。</p>
+      <div class="detail-card"><div class="k">车次</div><div class="v"><strong>754А</strong></div><div class="k">票价</div><div class="v"><strong>11,000₽</strong>（¥860）</div><div class="k">选座</div><div class="v">靠右窗 A/C 座 · 秋景最佳</div></div>
+      <a href="https://pass.rzd.ru/" target="_blank" class="booking">RZD 官方订票 ↗</a>
+      <a href="https://eng.rzd.ru/" target="_blank" class="booking">RZD English ↗</a>
+      <div class="tags"><span class="tag price">¥860</span><span class="tag">3h55m</span><span class="tag">商务舱含餐</span></div>
+    </div>
+    <div class="event"><div class="time">18:00</div><h3>入住 Belmond Grand Hotel Europe</h3><p>1875 年开业，陀思妥耶夫斯基、柴可夫斯基都曾是座上客。</p><div class="tags"><span class="tag hotel">酒店 · 4 晚</span></div></div>
+    <div class="event"><div class="time">20:30</div><h3>晚餐 · Палкинъ (Palkin)</h3><p>1825 年开业老字号，普希金、果戈里、陀思妥耶夫斯基都曾在此用餐。</p><a href="https://palkin.ru/en" target="_blank" class="booking">预订座位 ↗</a><div class="tags"><span class="tag price">人均 ¥250</span><span class="tag">百年老字号</span></div></div>
+  </div>
+</section>
+
+<!-- ========== DAY 6 ========== -->
+<section class="block tab-panel" data-day="6">
+  <div class="day-banner b6"><span class="banner-caption">The Hermitage · three million masterpieces</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 06 · Friday · 10/09 · Saint Petersburg</span>
+    <h2>冬宫<br><em>滴血教堂</em></h2>
+    <p class="desc">世界四大博物馆之一的艾尔米塔什，达芬奇、伦勃朗、印象派齐聚。下午走过滴血救世主教堂的五彩马赛克。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">3M+</span><span class="l">冬宫藏品</span></div>
+      <div class="day-stat"><span class="v">1057</span><span class="l">展厅</span></div>
+      <div class="day-stat"><span class="v">4 h</span><span class="l">建议参观</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">10:30</div><h3>艾尔米塔什博物馆 · 冬宫</h3><p>1764 年叶卡捷琳娜二世创建。达芬奇《柏诺瓦的圣母》、伦勃朗《浪子回头》、马蒂斯《舞蹈》。</p>
+      <div class="detail-card"><div class="k">门票</div><div class="v"><strong>700₽</strong>（¥55）· 含主楼 + 总参谋部大楼</div><div class="k">预约</div><div class="v">hermitagemuseum.org · 10:30 入场避人潮</div></div>
+      <a href="https://www.hermitagemuseum.org/wps/portal/hermitage/buy-ticket/" target="_blank" class="booking">预订门票 ↗</a>
+      <div class="tags"><span class="tag price">¥55</span><span class="tag">4h</span><span class="tag">世界顶级</span></div>
+    </div>
+    <div class="event"><div class="time">14:30</div><h3>午餐 · Эрмитажная кухня</h3><p>冬宫广场旁 · 主厨重构 18-19 世纪沙皇御膳。</p><a href="https://gutsait.ru/hermitage" target="_blank" class="booking">预订座位 ↗</a><div class="tags"><span class="tag price">人均 ¥120</span></div></div>
+    <div class="event"><div class="time">16:00</div><h3>滴血救世主教堂 + 喀山大教堂</h3><p>7,500㎡ 马赛克壁画世界之最。喀山大教堂免费入内。</p>
+      <div class="detail-card"><div class="k">滴血教堂</div><div class="v">门票 350₽（¥28）</div><div class="k">喀山</div><div class="v">免费 · 女性需戴头巾</div></div>
+    </div>
+    <div class="event"><div class="time">18:00</div><h3>涅瓦大街 · 书店咖啡</h3><p>Дом Книги 二楼 · 一杯咖啡俯瞰喀山大教堂。</p></div>
+    <div class="event"><div class="time">20:00</div><h3>晚餐 · Тепло (Teplo)</h3><p>暖屋风家庭俄餐 · 五个主题房间 · 本地人最爱。</p><a href="https://teplo.family/" target="_blank" class="booking">预订座位 ↗</a><div class="tags"><span class="tag price">人均 ¥140</span></div></div>
+  </div>
+</section>
+
+<!-- ========== DAY 7 ========== -->
+<section class="block tab-panel" data-day="7">
+  <div class="day-banner b7"><span class="banner-caption">Peterhof · the Russian Versailles</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 07 · Saturday · 10/10 · Peterhof</span>
+    <h2>夏宫<br><em>芬兰湾</em></h2>
+    <p class="desc">俄罗斯的凡尔赛——彼得霍夫夏宫。大瀑布喷泉 10 月中旬即将关闭，务必抓紧。乘水翼船从涅瓦河直达芬兰湾。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">30 km</span><span class="l">距市区</span></div>
+      <div class="day-stat"><span class="v">64</span><span class="l">喷泉</span></div>
+      <div class="day-stat"><span class="v">35 min</span><span class="l">水翼船</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">09:00</div><h3>水翼船 · 艾尔米塔什码头出发</h3><p>Метеор 水翼船 · 35 分钟到达彼得霍夫。</p><div class="tags"><span class="tag price">¥70</span></div></div>
+    <div class="event"><div class="time">10:00</div><h3>夏宫下花园 · 大瀑布喷泉</h3><p>176 座喷泉 + 37 座雕塑，参孙撕裂狮口水柱 21 米。10 月中旬喷泉将关闭整修。</p>
+      <div class="detail-card"><div class="k">门票</div><div class="v"><strong>600₽</strong>（¥48）</div><div class="k">注意</div><div class="v">10 月海边 3-7°C · 加厚外套</div></div>
+      <a href="https://peterhofmuseum.ru/en" target="_blank" class="booking">官网购票 ↗</a>
+      <div class="tags"><span class="tag price">¥48</span><span class="tag">UNESCO</span></div>
+    </div>
+    <div class="event"><div class="time">13:00</div><h3>午餐 · 夏宫 «Самсон»</h3><p>下花园内俄式餐厅。</p><a href="https://samson-hotel.ru/en/restaurants/" target="_blank" class="booking">预订座位 ↗</a><div class="tags"><span class="tag price">人均 ¥95</span></div></div>
+    <div class="event"><div class="time">15:00</div><h3>水翼船返回市区</h3></div>
+    <div class="event"><div class="time">19:30</div><h3>晚餐 · Пробка (Probka)</h3><p>本地人最爱意式小馆 · 连续吃俄餐后的完美调剂。主厨 Aram Mnatsakanov 代表作。</p><a href="https://probka.org/en/restaurants/probka-spb/" target="_blank" class="booking">预订座位 ↗</a><div class="tags"><span class="tag price">人均 ¥125</span></div></div>
+  </div>
+</section>
+
+<!-- ========== DAY 8 ========== -->
+<section class="block tab-panel" data-day="8">
+  <div class="day-banner b8"><span class="banner-caption">Peter & Paul Fortress · the noon cannon</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 08 · Sunday · 10/11 · Saint Petersburg</span>
+    <h2>彼得保罗要塞<br><em>告别宴</em></h2>
+    <p class="desc">圣彼得堡的诞生地——1703 年彼得大帝在此奠基。要塞内埋葬着所有罗曼诺夫王朝沙皇。夜晚在 Belmond 顶层 Caviar Bar 举杯。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">1703</span><span class="l">要塞始建</span></div>
+      <div class="day-stat"><span class="v">122.5 m</span><span class="l">尖顶</span></div>
+      <div class="day-stat"><span class="v">12:00</span><span class="l">午炮仪式</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">10:00</div><h3>彼得保罗要塞</h3><p>彼得保罗大教堂金色尖顶 122.5m。12:00 午炮仪式（纳雷什金堡垒空包弹）。</p>
+      <div class="detail-card"><div class="k">门票</div><div class="v"><strong>450₽</strong>（¥36）</div><div class="k">午炮</div><div class="v">12:00 准时 · 提前 15 分钟到场</div></div>
+      <a href="https://www.spbmuseum.ru/en/exhibitions_and_events/exhibitions/peter_and_paul_fortress.php" target="_blank" class="booking">官网购票 ↗</a>
+      <div class="tags"><span class="tag price">¥36</span><span class="tag">午炮必看</span></div>
+    </div>
+    <div class="event"><div class="time">12:30</div><h3>午餐 · Мари Ванна (Mari Vanna SPb)</h3><p>圣彼得堡分店 · 与莫斯科同款怀旧风，五个房间摆满苏联老物件。</p><a href="https://en.ginza.ru/spb/restaurant/marivanna" target="_blank" class="booking">预订座位 ↗</a><div class="tags"><span class="tag price">人均 ¥110</span></div></div>
+    <div class="event"><div class="time">14:30</div><h3>尤苏波夫宫</h3><p>1916 年拉斯普京在此被刺杀，地下暗杀现场还原。</p><div class="tags"><span class="tag price">¥55</span></div></div>
+    <div class="event"><div class="time">16:30</div><h3>伊萨基辅大教堂 · 登顶</h3><p>世界第四大教堂，金顶用 100kg 黄金。日落时金光洒在涅瓦河绝美。</p><a href="https://www.spbmuseum.ru/en/exhibitions_and_events/exhibitions/st_isaacs_cathedral.php" target="_blank" class="booking">官网购票 ↗</a><div class="tags"><span class="tag price">¥48</span></div></div>
+    <div class="event"><div class="time">19:30</div><h3>告别晚餐 · Caviar Bar & Restaurant</h3><p>Belmond 顶层 · 现场钢琴 · 涅瓦大街夜景 · 顶级鱼子酱三拼。</p>
+      <div class="detail-card"><div class="k">必点</div><div class="v">Caviar Trio 30g · Beluga 伏特加 · 巧克力熔岩</div><div class="k">人均</div><div class="v">5,000₽（¥390）</div></div>
+      <div class="tags"><span class="tag price">人均 ¥390</span><span class="tag">告别宴</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== DAY 9 ========== -->
+<section class="block tab-panel" data-day="9">
+  <div class="day-banner b9"><span class="banner-caption">The last Nevsky · До встречи</span></div>
+  <div class="day-head">
+    <span class="kicker">Day 09 · Monday · 10/12 · LED → PVG</span>
+    <h2>最后的涅瓦<br><em>启程回国</em></h2>
+    <p class="desc">最后一站俄罗斯博物馆或法贝热博物馆，中午吃一盘圣彼得堡经典甜甜圈，下午在涅瓦大街做最后的漫步。傍晚搭乘川航经成都回上海，总价 ¥2,400。</p>
+    <div class="day-stats">
+      <div class="day-stat"><span class="v">18:55</span><span class="l">起飞</span></div>
+      <div class="day-stat"><span class="v">14 h</span><span class="l">含中转</span></div>
+      <div class="day-stat"><span class="v">09:35+1</span><span class="l">抵达上海</span></div>
+      <div class="day-stat"><span class="v">¥2,400</span><span class="l">机票</span></div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="event"><div class="time">10:00</div><h3>酒店早餐 + 退房</h3><p>Belmond 最后一餐 · 行李寄存前台。</p></div>
+    <div class="event"><div class="time">11:00</div><h3>俄罗斯博物馆 或 法贝热博物馆</h3><p>俄罗斯博物馆：米哈伊洛夫宫建筑杰作。法贝热：9 枚复活节彩蛋全世界最完整。</p><div class="tags"><span class="tag price">¥36-40</span><span class="tag">二选一</span></div></div>
+    <div class="event"><div class="time">13:30</div><h3>午餐 · Пышечная</h3><p>圣彼得堡传奇甜甜圈店 · 苏联时期至今营业。</p><a href="https://pyshki1958.ru/" target="_blank" class="booking">官网 ↗</a><div class="tags"><span class="tag price">人均 ¥32</span></div></div>
+    <div class="event"><div class="time">15:00</div><h3>涅瓦大街 · 最后的漫步</h3><p>Eliseyev Emporium 买鱼子酱罐头（真空包装可带回）。</p></div>
+    <div class="event"><div class="time">16:00</div><h3>Yandex Go 前往 LED 机场</h3><p>约 1,500₽ / 40 分钟。建议 16:00 出发，18:55 起飞需提前 2.5h 到机场。</p><div class="tags"><span class="tag price">¥120</span></div></div>
+    <div class="event"><div class="time">18:55</div><h3>四川航空 3U3816 · 起飞</h3><p>圣彼得堡 → 成都天府 → 上海浦东。经成都中转约 14 小时，次日 09:35 抵达浦东。</p>
+      <div class="detail-card"><div class="k">航班</div><div class="v"><strong>3U3816</strong> · 四川航空 · LED → TFU → PVG</div><div class="k">价格</div><div class="v"><strong>¥2,400</strong> · 经济舱含税</div><div class="k">预订</div><div class="v">Trip.com 或 sichuanair.com</div></div>
+      <a href="https://www.trip.com/flights/city-led-airport-pvg/" target="_blank" class="booking">Trip.com 订票 ↗</a>
+      <div class="tags"><span class="tag">夜航 · 14h 含中转</span></div>
+    </div>
+  </div>
+  <div style="margin-top: 60px; padding: 40px 0; border-top: 1px solid var(--line); text-align: center;">
+    <span class="section-kicker">The End</span>
+    <h2 class="section-title" style="text-align:center;">Спасибо, <em>Россия</em></h2>
+    <p class="section-lead" style="margin: 16px auto;">九天，两座城市，三万里秋风。从红场的金顶到涅瓦河的桥影——До встречи.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="brand-f">RUSSIA <span>·</span> 2026</div>
+  <div style="display:flex; gap:24px; justify-content:center; margin: 16px 0;">
+    <a href="index.html" style="color: var(--ink-2); text-decoration: none;">概览</a>
+    <a href="itinerary.html" style="color: var(--gold); text-decoration: none;">行程</a>
+    <a href="logistics.html" style="color: var(--ink-2); text-decoration: none;">事项</a>
+  </div>
+  <div style="margin-top: 8px; font-size: 11px; color: var(--ink-3);">Crafted by Qoder · Visa-free until 2027-12-31</div>
+</footer>
+
+<script>
+  const tabs = document.querySelectorAll('.tab-btn');
+  const panels = document.querySelectorAll('.tab-panel');
+  tabs.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const day = btn.dataset.day;
+      tabs.forEach(t => t.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelector(`.tab-panel[data-day="${day}"]`).classList.add('active');
+      btn.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'center'});
+      setTimeout(() => {
+        document.getElementById('tabNav').scrollIntoView({behavior: 'smooth', block: 'start'});
+      }, 100);
+    });
+  });
+  window.addEventListener('scroll', () => {
+    document.querySelector('.nav').classList.toggle('scrolled', window.scrollY > 50);
+  });
+</script>
+</body>
+</html>
