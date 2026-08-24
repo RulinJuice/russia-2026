@@ -232,7 +232,6 @@ body {
 
 /* Hero images per page (high-res local) */
 .hero.home::before { background-image: url('img/hero-0.jpg'); }
-.hero.day1::before { background-image: url('img/hero-1.jpg'); }
 .hero.day2::before { background-image: url('img/hero-2.jpg'); }
 .hero.day3::before { background-image: url('img/hero-3.jpg'); }
 .hero.day4::before { background-image: url('img/hero-4.jpg'); }
@@ -753,6 +752,43 @@ section.block {
   color: var(--bg-0);
   box-shadow: 0 4px 16px rgba(201,169,97,.3);
 }
+
+/* ===== Info Card Image Strip ===== */
+.info-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110px;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius) var(--radius) 0 0;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+.info-img::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(11,13,18,0) 0%, rgba(11,13,18,.7) 60%, var(--card) 100%);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.info-card:hover .info-img { opacity: 1; }
+
+/* ===== Event Inline Image ===== */
+.event-img {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 21/9;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 8px;
+  box-shadow: 0 12px 30px -12px rgba(0,0,0,.6);
+  transition: transform .4s ease;
+}
+.event-img:hover { transform: scale(1.02); }
+@media (max-width: 768px) { .event-img { aspect-ratio: 16/9; } }
 
 /* ===== Gallery ===== */
 .gallery {
