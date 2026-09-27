@@ -235,7 +235,7 @@ body {
 .hero.day2::before { background-image: url('img/hero-2.jpg'); }
 .hero.day3::before { background-image: url('img/hero-3.jpg'); }
 .hero.day4::before { background-image: url('img/hero-4.jpg'); }
-.hero.day5::before { background-image: url('img/hero-5.jpg'); }
+.hero.day5::before { background-image: url('img/night-express-022a.png'); }
 .hero.day6::before { background-image: url('img/hero-6.jpg'); }
 .hero.day7::before { background-image: url('img/hero-7.jpg'); }
 .hero.day8::before { background-image: url('img/hero-8.jpg'); }
@@ -422,12 +422,12 @@ body {
 .day-banner.b1::before { background-image: url('img/hero-1.jpg'); }
 .day-banner.b2 { background-image: url('img/hero-2.jpg'); }
 .day-banner.b2::before { background-image: url('img/hero-2.jpg'); }
-.day-banner.b3 { background-image: url('img/event-sparrow-hills.jpg'); }
-.day-banner.b3::before { background-image: url('img/event-sparrow-hills.jpg'); }
+.day-banner.b3 { background-image: url('img/event-tretyakov.jpg'); }
+.day-banner.b3::before { background-image: url('img/event-tretyakov.jpg'); }
 .day-banner.b4 { background-image: url('img/hero-4.jpg'); }
 .day-banner.b4::before { background-image: url('img/hero-4.jpg'); }
-.day-banner.b5 { background-image: url('img/hero-5.jpg'); }
-.day-banner.b5::before { background-image: url('img/hero-5.jpg'); }
+.day-banner.b5 { background-image: url('img/night-express-022a.png'); }
+.day-banner.b5::before { background-image: url('img/night-express-022a.png'); }
 .day-banner.b6 { background-image: url('img/hero-6.jpg'); }
 .day-banner.b6::before { background-image: url('img/hero-6.jpg'); }
 .day-banner.b7 { background-image: url('img/hero-7.jpg'); }
