@@ -418,24 +418,22 @@ body {
 }
 
 /* Banner images per day */
-.day-banner.b1 { background-image: url('img/hero-1.jpg'); }
-.day-banner.b1::before { background-image: url('img/hero-1.jpg'); }
-.day-banner.b2 { background-image: url('img/hero-2.jpg'); }
-.day-banner.b2::before { background-image: url('img/hero-2.jpg'); }
-.day-banner.b3 { background-image: url('img/event-tretyakov.jpg'); }
-.day-banner.b3::before { background-image: url('img/event-tretyakov.jpg'); }
-.day-banner.b4 { background-image: url('img/hero-4.jpg'); }
-.day-banner.b4::before { background-image: url('img/hero-4.jpg'); }
-.day-banner.b5 { background-image: url('img/night-express-022a.png'); }
-.day-banner.b5::before { background-image: url('img/night-express-022a.png'); }
-.day-banner.b6 { background-image: url('img/hero-6.jpg'); }
-.day-banner.b6::before { background-image: url('img/hero-6.jpg'); }
-.day-banner.b7 { background-image: url('img/hero-7.jpg'); }
-.day-banner.b7::before { background-image: url('img/hero-7.jpg'); }
-.day-banner.b8 { background-image: url('img/hero-8.jpg'); }
-.day-banner.b8::before { background-image: url('img/hero-8.jpg'); }
-.day-banner.b9 { background-image: url('img/hero-9.jpg'); }
-.day-banner.b9::before { background-image: url('img/hero-9.jpg'); }
+.day-banner.b1 { background-image: url('img/hero-6.jpg'); }
+.day-banner.b1::before { background-image: url('img/hero-6.jpg'); }
+.day-banner.b2 { background-image: url('img/hero-8.jpg'); }
+.day-banner.b2::before { background-image: url('img/hero-8.jpg'); }
+.day-banner.b3 { background-image: url('img/hero-7.jpg'); }
+.day-banner.b3::before { background-image: url('img/hero-7.jpg'); }
+.day-banner.b4 { background-image: url('img/hero-6.jpg'); }
+.day-banner.b4::before { background-image: url('img/hero-6.jpg'); }
+.day-banner.b5 { background-image: url('img/hero-8.jpg'); }
+.day-banner.b5::before { background-image: url('img/hero-8.jpg'); }
+.day-banner.b6 { background-image: url('img/night-express-022a.png'); }
+.day-banner.b6::before { background-image: url('img/night-express-022a.png'); }
+.day-banner.b7 { background-image: url('img/hero-2.jpg'); }
+.day-banner.b7::before { background-image: url('img/hero-2.jpg'); }
+.day-banner.b8 { background-image: url('img/hero-9.jpg'); }
+.day-banner.b8::before { background-image: url('img/hero-9.jpg'); }
 
 /* ===== Sections ===== */
 section.block {
